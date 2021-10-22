@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Camp</title>
+        <!-- bootstrap css1 js2 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <!-- fontawesome css1 -->
+        <link href="libs/fontawesomepro/css/all.min.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <!-- Start Header Section -->
+        <header>
+            <!-- Start Navbar -->
+            <nav class="navbar navbar-expand-lg fixed-top navbars py-1">
+                <a href="index.html" class="navbar-brand mx-3">
+                    <img src="./img/logo.png" width="60px" alt="logo" style="background-color: blue;" />
+                    <span class="text-light h3 mx-3">Data Land Technology</span>
+                </a>
+
+
+                <button class="navbar-toggler text-light mx-3" data-bs-toggle="collapse" data-bs-target="#nav">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="navbar-collapse collapse justify-content-end me-3" id="nav">
+                    <ul class="navbar-nav h5 lead px-3 navs">
+                        <li class="nav-item"><a href="#" class="nav-link text-light">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light">Courses</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light">Schedules</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light">Contact us</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light">About us</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light" data-bs-toggle="modal" data-bs-target="#loginmodal">Login</a></li>
+                    </ul>
+                </div>
+            </nav>
+        <!-- End Navbar -->
+
+        <!-- Stat Banner -->
+        <section class="banners p-5">
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center" style="height: 100vh;">
+                    <div class="col-md-6 text-center">
+                        <h2 class="mb-4 text-light fw-light fs-4">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.</h2>
+                        <form action="" method="">
+                            <div class="input-group">
+                                <input type="text" name="search" id="search"
+                                    class="form-control form-control-sm search p-3" plcaceholder="Search..."
+                                    autocomplete="off" />
+                                <span class="input-group-text"><i class="fas fa-search"></i></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Banner -->
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start Camp Section -->
+    <section class="mt-5">
+        <div class="container camps">
+            <div class="position-relative">
+                <h5 class="fw-light headings">Upcoming Camps</h5>
+            </div>
+            <div class="carousel slide" data-bs-ride="carousel" id="customercarousels">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#customercarousels" class="active" data-bs-slide-to="0"></li>
+                    <li data-bs-target="#customercarousels" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#customercarousels" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active my-3">
+                        <div class="row p-4">
+                            <div class="col-lg-5 col-md-12 col-sm-12">
+                                <div class="card border-0 rounded-0 overflow-hidden my-2">
+                                    <img src="img/camp1.jpg" class="campimgs" alt="camp1">
+                                </div>
+                                <h5 class="text-center text-muted lead mt-2 p-3 campheadings">Web Development Foundation</h5>
+                            </div>
+                            <div class="col-lg-7 col-md-12 col-sm-12 text-light">
+                                <h4 class="fw-light mt-4">We are going to arrange a get together</h4>
+                                <p class="fw-light mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta deleniti quaerat, animi omnis voluptas aut, maiores quasi sequi placeat assumenda similique laborum praesentium a fugit. Quia, dolor eveniet! Sint, temporibus.</p>
+                                <div class="mt-4">
+                                    <i class="far fa-clock"></i> <span>10:00AM - 1:00PM</span>
+                                </div>
+                                <div class="my-3">
+                                    <i class="far fa-calendar-alt"></i> <span>27 Oct 2021</span>
+                                </div>
+                                <div>
+                                    <i class="far fa-map-marker-alt"></i> <span>Data Land Technology Co.,Ltd</span>
+                                </div>
+                                <button class="btn shadow-none mt-3 registerbtns">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item my-3">
+                        <div class="row p-4">
+                            <div class="col-lg-5 col-md-12 col-sm-12">
+                                <div class="card border-0 rounded-0 overflow-hidden my-2">
+                                    <img src="img/camp2.jpg" class="campimgs" alt="camp1">
+                                </div>
+                                <h5 class="text-center text-muted lead mt-2 p-3 campheadings">Web Development Foundation</h5>
+                            </div>
+                            <div class="col-lg-7 col-md-12 col-sm-12 text-light">
+                                <h4 class="fw-light mt-4">We are going to arrange a get together</h4>
+                                <p class="fw-light mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta deleniti quaerat, animi omnis voluptas aut, maiores quasi sequi placeat assumenda similique laborum praesentium a fugit. Quia, dolor eveniet! Sint, temporibus.</p>
+                                <div class="mt-4">
+                                    <i class="far fa-clock"></i> <span>10:00AM - 1:00PM</span>
+                                </div>
+                                <div class="my-3">
+                                    <i class="far fa-calendar-alt"></i> <span>27 Oct 2021</span>
+                                </div>
+                                <div>
+                                    <i class="far fa-map-marker-alt"></i> <span>Data Land Technology Co.,Ltd</span>
+                                </div>
+                                <button class="btn shadow-none mt-3 registerbtns">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item my-3">
+                        <div class="row p-4">
+                            <div class="col-lg-5 col-md-12 col-sm-12">
+                                <div class="card border-0 rounded-0 overflow-hidden my-2">
+                                    <img src="img/camp3.jpg" class="campimgs" alt="camp1">
+                                </div>
+                                <h5 class="text-center text-muted lead mt-2 p-3 campheadings">Web Development Foundation</h5>
+                            </div>
+                            <div class="col-lg-7 col-md-12 col-sm-12 text-light">
+                                <h4 class="fw-light mt-4">We are going to arrange a get together</h4>
+                                <p class="fw-light mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta deleniti quaerat, animi omnis voluptas aut, maiores quasi sequi placeat assumenda similique laborum praesentium a fugit. Quia, dolor eveniet! Sint, temporibus.</p>
+                                <div class="mt-4">
+                                    <i class="far fa-clock"></i> <span>10:00AM - 1:00PM</span>
+                                </div>
+                                <div class="my-3">
+                                    <i class="far fa-calendar-alt"></i> <span>27 Oct 2021</span>
+                                </div>
+                                <div>
+                                    <i class="far fa-map-marker-alt"></i> <span>Data Land Technology Co.,Ltd</span>
+                                </div>
+                                <button class="btn shadow-none mt-3 registerbtns">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Camp Section -->
+    <p>Hello</p>
+    <!-- Start Modal Area -->
+    <!-- Start Login Modal -->
+    <div id="loginmodal" class="modal fade">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="col-10 mx-auto py-4">
+                        <button class="btn-close loginclosebtns" data-bs-dismiss="modal"></button>
+                        <h1 class="text-muted text-center lead fs-4">Login</h1>
+                        <form action="" method="" class="mt-4">
+                            <div class="form-group position-relative mb-4">
+                                <input type="text" name="loginemail" id="loginemail" class="form-control text-muted rounded-pill" placeholder="Enter Email" />
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="form-group position-relative mb-2">
+                                <input type="password" name="loginpassword" id="loginpassword" class="form-control text-muted rounded-pill" placeholder="Enter Password" />
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#forgotpasswordmodal">Forgot Password?</a>
+                            <div class="d-grid my-3">
+                                <button type="submit" class="btn fw-light text-uppercase buttons">Login</button>
+                            </div>
+                            <span class="text-muted">Don't have an account?  <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#singupmodal">Sing Up</a> </span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Login Modal -->
+
+    <!-- Start Singup Modal -->
+    <div id="singupmodal" class="modal fade">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="col-10 mx-auto py-4">
+                        <button class="btn-close signupclosebtns" data-bs-dismiss="modal"></button>
+                        <h1 class="text-muted text-center lead fs-4">Signup</h1>
+                        <form action="" method="" class="mt-4">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group position-relative mb-4">
+                                        <input type="text" name="singupfirstname" id="singupfirstname" class="form-control text-muted rounded-pill" placeholder="Enter First Name" />
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group position-relative mb-4">
+                                        <input type="text" name="singuplastname" id="singuplastname" class="form-control text-muted rounded-pill" placeholder="Enter Last Name" />
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group position-relative mb-4">
+                                <input type="text" name="signupemail" id="signupemail" class="form-control text-muted rounded-pill" placeholder="Enter Email" />
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="form-group position-relative mb-4">
+                                <input type="password" name="signuppassword" id="signuppassword" class="form-control text-muted rounded-pill" placeholder="Enter Password" />
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <div class="form-group position-relative mb-4">
+                                <input type="password" name="signupconpassword" id="signupconpassword" class="form-control text-muted rounded-pill" placeholder="Enter Confirm Password" />
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <div class="d-grid my-3">
+                                <button type="submit" class="btn fw-light text-uppercase buttons">Sign Up</button>
+                            </div>
+                            <span class="text-muted">Have an account?  <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#loginmodal">Login Here</a> </span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Singup Modal -->
+    
+    <!-- Start Forgot Password Modal -->
+    <div id="forgotpasswordmodal" class="modal fade">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="col-10 mx-auto py-4 position-relative">
+                        <button class="btn-close resetclosebtns" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#loginmodal"></button>
+                        <h1 class="text-muted text-center lead fs-4">Reset Password</h1>
+                        <p class="text-muted text-center mb-4">Just enter your email.We'll send you a reset link.</p>
+                        <form action="" method="" class="mt-4">
+                            <div class="form-group position-relative mb-4">
+                                <input type="text" name="resetemail" id="resetemail" class="form-control text-muted rounded-pill" placeholder="Enter Email" />
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="d-grid my-3">
+                                <button type="submit" class="btn fw-light text-uppercase buttons">Reset Password</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Forgot Password Modal -->
+    <!-- End Modal Area -->
+    <!-- bootstrap css1 js2 -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    </body>
+</html>
